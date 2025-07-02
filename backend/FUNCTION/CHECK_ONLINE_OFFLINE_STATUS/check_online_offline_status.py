@@ -1,5 +1,5 @@
 import requests # pip install requests
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from FUNCTION.JARVIS_SPEAK.speak import speak
 
 
 def is_online(url="http://www.google.com", timeout=5):

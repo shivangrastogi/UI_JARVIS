@@ -1,7 +1,7 @@
 import random
 import pyautogui as ui
-from backend.DATA.JARVIS_DLG_DATASET.DLG import closedlg
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from DATA.JARVIS_DLG_DATASET.DLG import closedlg
+from FUNCTION.JARVIS_SPEAK.speak import speak
 
 
 def close():

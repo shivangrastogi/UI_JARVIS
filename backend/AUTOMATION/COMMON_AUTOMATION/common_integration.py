@@ -1,5 +1,5 @@
-from backend.AUTOMATION.COMMON_AUTOMATION.close import *
-from backend.AUTOMATION.COMMON_AUTOMATION.open import *
+from AUTOMATION.COMMON_AUTOMATION.close import *
+from AUTOMATION.COMMON_AUTOMATION.open import *
 
 
 def common_cmd(text):

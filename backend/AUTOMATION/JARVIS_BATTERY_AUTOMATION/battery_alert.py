@@ -1,8 +1,8 @@
 import random
 import time
 import psutil
-from backend.DATA.JARVIS_DLG_DATASET.DLG import low_b, last_low, full_battery
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from DATA.JARVIS_DLG_DATASET.DLG import low_b, last_low, full_battery
+from FUNCTION.JARVIS_SPEAK.speak import speak
 
 last_level = None
 

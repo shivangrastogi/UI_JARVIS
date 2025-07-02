@@ -1,7 +1,7 @@
 import random
 import psutil
-from backend.DATA.JARVIS_DLG_DATASET.DLG import plug_out, plug_in
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from DATA.JARVIS_DLG_DATASET.DLG import plug_out, plug_in
+from FUNCTION.JARVIS_SPEAK.speak import speak
 import time
 
 

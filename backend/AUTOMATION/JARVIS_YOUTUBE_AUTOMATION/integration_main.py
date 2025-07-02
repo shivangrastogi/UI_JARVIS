@@ -1,13 +1,13 @@
-from backend.AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.another_automation_in_youtube import *
-from backend.AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.caption_in_video import *
-from backend.AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.manual_search_in_youtube import *
-from backend.AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.play_music_in_youtube import *
-from backend.AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.play_pause_video_in_youtube import *
-from backend.AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.search_in_youtube import *
-from backend.AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.youtube_video_playback import *
-from backend.FUNCTION.JARVIS_LISTEN.listen import listen
-from backend.FUNCTION.JARVIS_SPEAK.speak import *
-from backend.DATA.JARVIS_DLG_DATASET.DLG import *
+from AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.another_automation_in_youtube import *
+from AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.caption_in_video import *
+from AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.manual_search_in_youtube import *
+from AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.play_music_in_youtube import *
+from AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.play_pause_video_in_youtube import *
+from AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.search_in_youtube import *
+from AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.youtube_video_playback import *
+from FUNCTION.JARVIS_LISTEN.listen import listen
+from FUNCTION.JARVIS_SPEAK.speak import *
+from DATA.JARVIS_DLG_DATASET.DLG import *
 #
 # from os import getcwd
 #

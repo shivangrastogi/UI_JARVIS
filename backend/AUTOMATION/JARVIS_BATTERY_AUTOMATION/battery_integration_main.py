@@ -1,6 +1,6 @@
-from backend.AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_alert import *
-from backend.AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_plug_check import *
-from backend.AUTOMATION.JARVIS_BATTERY_AUTOMATION.check_battery_percentage import *
+from AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_alert import *
+from AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_plug_check import *
+from AUTOMATION.JARVIS_BATTERY_AUTOMATION.check_battery_percentage import *
 
 
 def battery_cmd(text):

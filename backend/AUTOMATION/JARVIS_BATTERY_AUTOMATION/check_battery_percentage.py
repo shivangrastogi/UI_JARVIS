@@ -1,6 +1,6 @@
 import psutil
 
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from FUNCTION.JARVIS_SPEAK.speak import speak
 
 
 def battery_percentage():

@@ -3,8 +3,8 @@ from time import sleep
 import pyautogui as ui
 import random
 import time
-from backend.DATA.JARVIS_DLG_DATASET.DLG import s2, s1
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from DATA.JARVIS_DLG_DATASET.DLG import s2, s1
+from FUNCTION.JARVIS_SPEAK.speak import speak
 import pygetwindow as gw
 
 def is_browser_active():

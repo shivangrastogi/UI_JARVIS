@@ -1,8 +1,8 @@
 import time
 import pyautogui as ui
-from backend.DATA.JARVIS_DLG_DATASET.DLG import open_dld
+from DATA.JARVIS_DLG_DATASET.DLG import open_dld
 import random
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from FUNCTION.JARVIS_SPEAK.speak import speak
 
 
 def open(text):

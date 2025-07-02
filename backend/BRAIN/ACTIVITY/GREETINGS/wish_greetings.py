@@ -2,8 +2,8 @@ import random
 from datetime import date
 import datetime
 
-from backend.DATA.JARVIS_DLG_DATASET.DLG import *
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from DATA.JARVIS_DLG_DATASET.DLG import *
+from FUNCTION.JARVIS_SPEAK.speak import speak
 
 today = date.today()
 formatted_date = today.strftime("%d %b, %y")

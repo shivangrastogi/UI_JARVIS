@@ -1,16 +1,17 @@
-from backend.AUTOMATION.MAIN_INTEGRATION._integration_automation import *
-from backend.BRAIN.MAIN_BRAIN.BRAIN.brain import *
-from backend.FUNCTION.MAIN_FUNCTION_INTEGRATION.function_integration import *
-from backend.BRAIN.ACTIVITY.GREETINGS.welcome_greetings import *
-from backend.BRAIN.ACTIVITY.GREETINGS.wish_greetings import *
+# import random
+from AUTOMATION.MAIN_INTEGRATION._integration_automation import *
+# import winsound
+from BRAIN.MAIN_BRAIN.BRAIN.brain import *
+from FUNCTION.MAIN_FUNCTION_INTEGRATION.function_integration import *
+from BRAIN.ACTIVITY.GREETINGS.welcome_greetings import *
+from BRAIN.ACTIVITY.GREETINGS.wish_greetings import *
 import threading
-from backend.BRAIN.ACTIVITY.ADVICE.advice import *
-from backend.BRAIN.ACTIVITY.JOKE.jokes import *
-from backend.AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_plug_check import *
-from backend.AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_alert import *
-# from playsound import playsound
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
-
+from BRAIN.ACTIVITY.ADVICE.advice import *
+from BRAIN.ACTIVITY.JOKE.jokes import *
+from AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_plug_check import *
+from AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_alert import *
+from playsound import playsound
+from FUNCTION.JARVIS_SPEAK.speak import speak
 
 def comain():
     while True:
@@ -44,9 +45,8 @@ def main():
 
 
 def jarvis():
-    # sound_path = resource_path("DATA/soundeffect/mixkit-high-tech-bleep-2521.wav")
-    # playsound(sound_path)
-    speak("JARVIS ACTIVATED")
+    sound_path = resource_path("DATA/soundeffect/mixkit-high-tech-bleep-2521.wav")
+    playsound(sound_path)
     t1 = threading.Thread(target=main)
     t2 = threading.Thread(target=battery_alert)
     t3 = threading.Thread(target=check_plugin_status)

@@ -1,4 +1,5 @@
 import pyautogui
+import time
 
 def play_pause():
     pyautogui.press("space")

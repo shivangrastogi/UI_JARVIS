@@ -1,8 +1,8 @@
 import threading
 
 # from BRAIN.MAIN_BRAIN.GOOGLE_BIG_DATA.google_big_data import deep_search
-from backend.BRAIN.MAIN_BRAIN.GOOGLE_SMALL_DATA.google_small_data import search_brain
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from BRAIN.MAIN_BRAIN.GOOGLE_SMALL_DATA.google_small_data import search_brain
+from FUNCTION.JARVIS_SPEAK.speak import speak
 import os
 import sys
 

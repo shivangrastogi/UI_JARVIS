@@ -1,10 +1,10 @@
-from backend.FUNCTION.CHECK_TEMPERATURE.check_temperature import *
-from backend.FUNCTION.CHECK_INTERNET_SPEED.check_speed import *
-from backend.FUNCTION.CHECK_ONLINE_OFFLINE_STATUS.check_online_offline_status import *
-from backend.FUNCTION.MUSIC_WITH_CLAP.clap_with_music import *
-from backend.FUNCTION.CLOCK.clock import *
-from backend.FUNCTION.FIND_MY_IP.find_my_ip import *
-from backend.FUNCTION.JARVIS_SPEAK.speak import *
+from FUNCTION.CHECK_TEMPERATURE.check_temperature import *
+from FUNCTION.CHECK_INTERNET_SPEED.check_speed import *
+from FUNCTION.CHECK_ONLINE_OFFLINE_STATUS.check_online_offline_status import *
+from FUNCTION.MUSIC_WITH_CLAP.clap_with_music import *
+from FUNCTION.CLOCK.clock import *
+from FUNCTION.FIND_MY_IP.find_my_ip import *
+from FUNCTION.JARVIS_SPEAK.speak import *
 
 
 def Function_cmd(text):

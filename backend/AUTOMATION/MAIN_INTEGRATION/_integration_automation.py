@@ -1,7 +1,7 @@
-from backend.AUTOMATION.COMMON_AUTOMATION.common_integration import *
-from backend.AUTOMATION.JARVIS_GOOGLE_AUTOMATION.google_integration_main import *
-from backend.AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_integration_main import *
-from backend.AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.integration_main import *
+from AUTOMATION.COMMON_AUTOMATION.common_integration import *
+from AUTOMATION.JARVIS_GOOGLE_AUTOMATION.google_integration_main import *
+from AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_integration_main import *
+from AUTOMATION.JARVIS_YOUTUBE_AUTOMATION.integration_main import *
 
 def Automation(text):
     common_cmd(text)   # Handle open/close app commands first

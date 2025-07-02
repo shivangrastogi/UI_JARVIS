@@ -5,10 +5,10 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from backend.FUNCTION.JARVIS_SPEAK.speak import *
+from FUNCTION.JARVIS_SPEAK.speak import *
 # from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
-from backend.FUNCTION.ChromeWebdriverLocation.utils import get_chromedriver_path
+from FUNCTION.ChromeWebdriverLocation.utils import get_chromedriver_path
 import logging
 
 

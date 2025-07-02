@@ -5,8 +5,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import re
 
-from backend.FUNCTION.ChromeWebdriverLocation.utils import get_chromedriver_path
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from FUNCTION.ChromeWebdriverLocation.utils import get_chromedriver_path
+from FUNCTION.JARVIS_SPEAK.speak import speak
 
 chrome_options = Options()
 chrome_options.add_argument("--disable-blink-features=AutomationControlled")

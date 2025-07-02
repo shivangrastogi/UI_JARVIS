@@ -2,9 +2,9 @@ import os
 import pygame
 import random
 from pygame import mixer
-from backend.FUNCTION.CLAP_DETECTOR.clapd import *
+from FUNCTION.CLAP_DETECTOR.clapd import *
 from playsound import playsound
-from backend.FUNCTION.JARVIS_SPEAK.speak import *
+from FUNCTION.JARVIS_SPEAK.speak import *
 
 
 def play_random_music(folder_path):

@@ -1,8 +1,8 @@
-from backend.AUTOMATION.JARVIS_GOOGLE_AUTOMATION.tab_automation import *
-from backend.AUTOMATION.JARVIS_GOOGLE_AUTOMATION.search_in_google import *
-from backend.AUTOMATION.JARVIS_GOOGLE_AUTOMATION.scroll_automation import *
-from backend.AUTOMATION.JARVIS_GOOGLE_AUTOMATION.open_website import *
-from backend.AUTOMATION.COMMON_AUTOMATION.open import *
+from AUTOMATION.JARVIS_GOOGLE_AUTOMATION.tab_automation import *
+from AUTOMATION.JARVIS_GOOGLE_AUTOMATION.search_in_google import *
+from AUTOMATION.JARVIS_GOOGLE_AUTOMATION.scroll_automation import *
+from AUTOMATION.JARVIS_GOOGLE_AUTOMATION.open_website import *
+from AUTOMATION.COMMON_AUTOMATION.open import *
 
 # def google_cmd(text):
 #     text = text.lower().strip()

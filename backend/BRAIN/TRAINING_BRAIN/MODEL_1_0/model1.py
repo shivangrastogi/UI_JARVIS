@@ -7,7 +7,7 @@ from nltk.stem import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from FUNCTION.JARVIS_SPEAK.speak import speak
 
 
 def load_dataset(file_path):

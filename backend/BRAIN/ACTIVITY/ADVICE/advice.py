@@ -3,8 +3,8 @@ import time
 
 import requests
 
-from backend.FUNCTION.JARVIS_LISTEN.listen import listen
-from backend.FUNCTION.JARVIS_SPEAK.speak import speak
+from FUNCTION.JARVIS_LISTEN.listen import listen
+from FUNCTION.JARVIS_SPEAK.speak import speak
 
 
 def get_random_advice():
