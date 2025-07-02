@@ -8,7 +8,7 @@ from backend.BRAIN.ACTIVITY.ADVICE.advice import *
 from backend.BRAIN.ACTIVITY.JOKE.jokes import *
 from backend.AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_plug_check import *
 from backend.AUTOMATION.JARVIS_BATTERY_AUTOMATION.battery_alert import *
-from playsound import playsound
+# from playsound import playsound
 from backend.FUNCTION.JARVIS_SPEAK.speak import speak
 
 
@@ -44,8 +44,9 @@ def main():
 
 
 def jarvis():
-    sound_path = resource_path("DATA/soundeffect/mixkit-high-tech-bleep-2521.wav")
-    playsound(sound_path)
+    # sound_path = resource_path("DATA/soundeffect/mixkit-high-tech-bleep-2521.wav")
+    # playsound(sound_path)
+    speak("JARVIS ACTIVATED")
     t1 = threading.Thread(target=main)
     t2 = threading.Thread(target=battery_alert)
     t3 = threading.Thread(target=check_plugin_status)
